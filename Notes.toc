@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{Introduction to Fair Division}{3}{0}{1}
+\beamer@sectionintoc {2}{Cut and Choose}{6}{0}{2}
+\beamer@sectionintoc {3}{Fair Division for $n$}{10}{0}{3}
+\beamer@subsectionintoc {3}{1}{Banach-Knaster Last Diminisher}{10}{0}{3}
