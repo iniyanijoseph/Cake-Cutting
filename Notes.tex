@@ -7,6 +7,7 @@
 \usepackage{hyperref}
 \usepackage{graphicx} % Allows including images
 \usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\usepackage{media9}
 
 \graphicspath{{./images/}}
 
@@ -46,7 +47,20 @@
 %------------------------------------------------
 \section{Introduction to Fair Division}
 %------------------------------------------------
-
+\begin{frame}{Meeting 1}
+	\begin{block}{Agenda}
+		\begin{itemize}
+			\item Introduction
+			\item Fair Division for n Players
+			\begin{itemize}
+				\item Banach Knaster
+				\item Dubins Spanier
+				\item Even Paz
+			\end{itemize}
+		\end{itemize}
+	\end{block}
+\end{frame}
+%------------------------------------------------
 \begin{frame}{Introduction}
 	Imagine two people want to share this cake.
 	\begin{figure}
@@ -69,7 +83,7 @@
 	\Huge{\centerline{\textbf{Cut and Choose}}}
 \end{frame}
 %------------------------------------------------
-\begin{frame}{Algorithm}
+\begin{frame}{Procedure}
 	\begin{enumerate}
 		\item Player 1 cuts the cake into what they believe is half
 		\item Player 2 chooses the piece which they think is better
@@ -77,12 +91,12 @@
 \end{frame}
 %------------------------------------------------
 \begin{frame}{Proof of Correctness}
-	\begin{enumerate}
+	\begin{itemize}
 		\item Player 1 recieves $\frac{1}{2}$ of the cake
 		\item Player 1 values Player 2's allocation to also be worth $\frac{1}{2}$\pause
 		\item Player 2 recieved the piece which they thought was better
 		\item Player 2 must value their piece to be at least $\frac{1}{2}$ of the cake
-	\end{enumerate}
+	\end{itemize}
 \end{frame}
 %------------------------------------------------
 \section{Fair Division for $n$}
@@ -93,33 +107,116 @@
 	\Huge{\centerline{\textbf{Banach-Knaster Last Diminisher}}}
 \end{frame}
 %------------------------------------------------
-\begin{frame}{Multiple Columns}
-	\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
-		
-		\column{.45\textwidth} % Left column and width
-		\textbf{Heading}
+\begin{frame}{Procedure}
+	\begin{enumerate}
+		\item Player 1 cuts $\frac{1}{n}$ of the cake
+		\item Player 2 through n
+		\begin{itemize}
+			\item If they believe the piece is worth $> \frac{1}{n}$ of the cake, they may trim it
+			\item If they believe the piece is worth $\leq \frac{1}{n}$ of the cake, they may pass it to the next person
+		\end{itemize} \pause
+		\item The last person to trim the piece recieves it and drops out\pause
+		\item Repeat until no players remain
+	\end{enumerate}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Proof of Correctness}
+	\begin{itemize}
+		\item Cutting a piece to be $> \frac{1}{n}$ can cause further division to be limited to $< \frac{1}{n}$ of the cake
+		\item This is most easily seen with an extreme example \pause
 		\begin{enumerate}
-			\item Statement
-			\item Explanation
-			\item Example
+			\item Person 1 cuts 98\% of the cake, with the goal of taking it for themselves.
+			\item After passing the cake around, the last diminisher has only cut the piece down to 97\% of the value of the cake
+			\item Person 1 now cannot receive more than 3\% of the cake.
 		\end{enumerate}
-		
-		\column{.5\textwidth} % Right column and width
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lectus nisl, ultricies in feugiat rutrum, porttitor sit amet augue. Aliquam ut tortor mauris. Sed volutpat ante purus, quis accumsan dolor.
-		
-	\end{columns}
+	\end{itemize}
+\end{frame}
+%------------------------------------------------
+\subsection{Dubins-Spanier Moving Knife}
+%------------------------------------------------
+\begin{frame}
+	\Huge{\centerline{\textbf{Dubins-Spanier Moving Knife}}}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Procedure}
+	\begin{itemize}
+		\item Rather than having many cuts, a "moving knife" can be used to allocate chunks of cake.
+		\begin{enumerate}
+			\item A knife moves over the cake continuously from one side to the opposite side (for example from left to right)
+			\item When a person thinks that the portion remaining from the starting side/previous cut is worth $\frac{1}{n}$, then they may say "Cut", and they will take the portion on the left side.
+		\end{enumerate}
+	\end{itemize}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Proof of Correctness}
+	\begin{itemize}
+		\item The same person who said "Cut" at any given point would have been the last diminisher in in the Banach-Knaster Last Diminisher Method.\pause
+		\item On a surface level, this seems to take n-1 cuts, but this is incorrect. Instead, it takes an infinite number of cuts perpendicular to the direction of movement.
+	\end{itemize}
+\end{frame}
+%------------------------------------------------
+\subsection{Even-Paz Divide and Conquer}
+%------------------------------------------------
+\begin{frame}
+	\Huge{\centerline{\textbf{Even-Paz Divide and Conquer}}}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Procedure}
+	\begin{enumerate}
+		\item Players 1...n-1 cut the cake in half
+		\item Player n compares the cake to the left and to the right of middle cut and chooses the piece which they think is bigger.\pause
+		\item Player n and the players on the side n chose repeat the procedure on that side
+		\item The remaining players repeat the procedure on the other side
+	\end{enumerate}
 \end{frame}
 %------------------------------------------------
 \begin{frame}{Meeting 2}
 	\begin{block}{Agenda}
 		\begin{itemize}
-			\item Stromquist Envy-Free Moving Knife for n=3
+			\item Stromquist Envy-Free Moving Knife
 			\item Austin's Perfect Division for n=2
-			\item Ideation
+			\item Aziz-Mackenzie Envy-Free Procedure
 		\end{itemize}
 	\end{block}
 \end{frame}
 %------------------------------------------------
+\subsection{Stromquist Envy-Free Moving Knife}
+%------------------------------------------------
+\begin{frame}
+\Huge{\centerline{\textbf{Stromquist Envy Free Moving Knife}}}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Procedure}
+\end{frame}
+%------------------------------------------------
+\subsection{Austin's Perfect Division for n=2}
+%------------------------------------------------
+\begin{frame}
+	\Huge{\centerline{\textbf{Austin's Perfect Division for n=2}}}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Defining Perfect Division}
+	
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Procedure}
+	\begin{enumerate}
+		\item Players 1...n-1 cut the cake in half
+		\item Player n compares the cake to the left and to the right of middle cut and chooses the piece which they think is bigger.\pause
+		\item Player n and the players on the side n chose repeat the procedure on that side
+		\item The remaining players repeat the procedure on the other side
+	\end{enumerate}
+\end{frame}
+%------------------------------------------------
+\subsection{Aziz-Mackenzie Envy-Free Procedure}
+%------------------------------------------------
+\begin{frame}
+	\Huge{\centerline{\textbf{Aziz-Mackenzie Envy-Free Procedure}}}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Aziz-Mackenzie Envy-Free Procedure for n}
+	\centerline{\url{https://youtu.be/fvM8ow6zNw4?si=AGrOGF7vSZSGt4QK&t=711}}
+\end{frame}
 %----------------------------------------------------------------------------------------
 
 \end{document}
