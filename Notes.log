@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Debian) (preloaded format=xelatex 2024.2.4)  26 APR 2024 10:27
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Debian) (preloaded format=xelatex 2024.2.4)  26 APR 2024 10:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1052,10 +1052,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 ] [46
 
-]
-File: ./images//Camel.png Graphic file (type bmp)
-<./images//Camel.png>
- [47
+] [47
 
 ] [48
 
@@ -1063,7 +1060,10 @@ File: ./images//Camel.png Graphic file (type bmp)
 
 ] [50
 
-] [51
+]
+File: ./images//Camel.png Graphic file (type bmp)
+<./images//Camel.png>
+ [51
 
 ] [52
 
@@ -1082,6 +1082,14 @@ File: ./images//Camel.png Graphic file (type bmp)
 
 ] [59
 
+] [60
+
+] [61
+
+] [62
+
+] [63
+
 ]
 \tf@nav=\write6
 \openout6 = `Notes.nav'.
@@ -1092,7 +1100,12 @@ File: ./images//Camel.png Graphic file (type bmp)
 \tf@snm=\write8
 \openout8 = `Notes.snm'.
 
- (./Notes.aux)
+
+
+LaTeX Warning: Hook 'shipout/lastpage' executed on wrong page (59 not 63).
+               Rerun to correct this.
+
+(./Notes.aux)
 Package rerunfilecheck Info: File `Notes.out' has not changed.
 (rerunfilecheck)             Checksum: C7373231F4630FC91A69A0AC5CD62D38;1779.
  ) 
@@ -1105,4 +1118,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  128i,11n,122p,439b,686s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Notes.pdf (59 pages).
+Output written on Notes.pdf (63 pages).
