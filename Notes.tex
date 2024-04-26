@@ -8,6 +8,7 @@
 \usepackage{graphicx} % Allows including images
 \usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
 \usepackage{media9}
+\usepackage[dvipsnames]{xcolor}
 
 \graphicspath{{./images/}}
 
@@ -225,30 +226,34 @@
 			\item Unequal Division Na{\"i}vely
 			\item Cutting into 1-sized parts
 			\item Ramsey Partitions
-			\item Near-Halves
+			\item \textcolor{Gray}{Halving}
 		\end{itemize}
 	\end{block}
 	Next Week: Finish Chapter 3 \& Chapter 4
 \end{frame}
+%----------------------------------------------------------------------------------------
 \begin{frame}{Reading Papers}
 	Let's be honest\\Most papers are dryer than the Sahara Desert\pause
 	\newline
 	\newline
 	So why read papers?
 \end{frame}
-
+%----------------------------------------------------------------------------------------
 \begin{frame}{Reading Papers}
 	\begin{itemize}
-		\item Understanding the field better
-		\item 
+		\item Understanding the current research better \item
+		\item To gain background knowledge \item
+		\item To find interesting questions to work on \item
+		\item Because the professor said so \item
 	\end{itemize}
 	Fundamentally, we are learning: But what are we trying to learn?
 \end{frame}
-
+%----------------------------------------------------------------------------------------
 \begin{frame}{Reading Papers}
 	But what are we trying to learn?\\\pause
 	Our goal when reading a paper is to contextualize that paper's findings in the field.
 \end{frame}
+%----------------------------------------------------------------------------------------
 \begin{frame}{Reading Papers}
 	Thankfully, scientists are aware of this, so they write about it.\pause
 	\\Parts of a Paper
@@ -261,13 +266,66 @@
 		\item Discussion/Conclusion
 	\end{itemize}
 \end{frame}
+%----------------------------------------------------------------------------------------
 \begin{frame}{PhD}
 	\url{https://matt.might.net/articles/phd-school-in-pictures/IllustratedGuidePhD-Matt-Might.pdf}
 \end{frame}
- 
+%----------------------------------------------------------------------------------------
 \begin{frame}{Dividing Camels}
 	\includegraphics[width=0.78\linewidth]{Camel}\\
 	First son gets $\frac{1}{2}$. Second son gets $\frac{1}{3}$. Third son gets $\frac{1}{9}$
 \end{frame}
+%----------------------------------------------------------------------------------------
+\begin{frame}{Na{\"i}ve Method}
+	\begin{itemize}
+		\item Duplicate each player proportional to their ratio.\pause
+		\item We will say that 
+		\begin{itemize}
+			\item Player 1 recieves $A_1$ allocation
+			\item Player 2 recieves $A_2$ allocation
+		\end{itemize}\pause
+		\item Using the Even-Paz method, $\theta((\sum A)\log(\sum A))$ cuts are required.\newline
+		\item We can do better!
+	\end{itemize}
+\end{frame}
+%----------------------------------------------------------------------------------------
+\begin{frame}{Cutting Ones}
+	\begin{itemize}
+		\item Similar to the cut-and-choose algorithm\pause
+		\item Player 1 divides the cake into 1-sized parts
+		\item Player 2 chooses $A_2$ of the 1-sized parts
+	\end{itemize}
+\end{frame}
+%----------------------------------------------------------------------------------------
+\begin{frame}{Ramsey Partitions}
+	\begin{itemize}
+		\item Ramsey theory is simply the study of edge colorings of complete graphs\pause
+		\item We can observe this finding $R(3, 3)$\pause
+	\end{itemize}
+	The same property seen in Ramsey Theory can also be used to help partition
+\end{frame}
 %-------------------------------------------------------------------------------
+\begin{frame}{Ramsey Partitions}
+	\begin{itemize}
+		\item Assume $A_1 < A_2$
+		\item Player 1 cuts what they percieve to be $A_1$ of the cake.
+		\item The smaller piece can be called $X_1$ and the larger piece can be called $X_2$
+		\item If $\mu_2(X_2) < A_2$ (If the person thinks they got less than they were supposed to)
+		\item Player 2 takes $X_1$ and division continues in the ratio $A_2 - A_1: A_1$ until no cake remains
+	\end{itemize}
+\end{frame}
+%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
+\begin{frame}{Ramsey Partitions}
+	\begin{itemize}
+		\item This can be simplified using ramsey partitions
+		\item Person 1 cuts the Ramsey Partitions of $\sum A$
+		\item Person 2 marks all pieces $\mu_2(X_j) > \mu_1(X_j)$ (Everything they are willing to accept)\pause
+		\begin{enumerate}
+			\item If the sum of a subset of the marked pieces $= A_2$, we can give those pieces to Player 2 and give the rest to Player 1\pause 
+			\item Otherwise, Player 1 may choose pieces summing to $A_1$ of the unmarked pieces. 
+			\item This works because of the Ramsey Partitioning!
+		\end{enumerate}
+	\end{itemize}
+\end{frame}
 \end{document}
