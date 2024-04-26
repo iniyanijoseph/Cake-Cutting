@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Debian) (preloaded format=xelatex 2024.2.4)  19 APR 2024 21:44
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Debian) (preloaded format=xelatex 2024.2.4)  25 APR 2024 22:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1023,6 +1023,40 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 ] [32
 
+] [33
+
+] [34
+
+] [35
+
+] [36
+
+] [37
+
+] [38
+
+] [39
+
+] [40
+
+]
+[41
+
+] [42
+
+] [43
+
+] [44
+
+] [45
+
+] [46
+
+]
+File: ./images//Camel.png Graphic file (type bmp)
+<./images//Camel.png>
+ [47
+
 ]
 \tf@nav=\write6
 \openout6 = `Notes.nav'.
@@ -1038,12 +1072,12 @@ Package rerunfilecheck Info: File `Notes.out' has not changed.
 (rerunfilecheck)             Checksum: C7373231F4630FC91A69A0AC5CD62D38;1779.
  ) 
 Here is how much of TeX's memory you used:
- 23065 strings out of 476775
- 464039 string characters out of 5808213
+ 23097 strings out of 476775
+ 464482 string characters out of 5808213
  1850991 words of memory out of 5000000
- 42691 multiletter control sequences out of 15000+600000
+ 42723 multiletter control sequences out of 15000+600000
  521674 words of font info for 95 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,11n,122p,439b,686s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Notes.pdf (32 pages).
+Output written on Notes.pdf (47 pages).
