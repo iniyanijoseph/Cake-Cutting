@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Debian) (preloaded format=xelatex 2024.2.4)  26 APR 2024 10:31
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Debian) (preloaded format=xelatex 2024.2.4)  3 MAY 2024 10:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -781,6 +781,14 @@ Package: ocgbase 2022/08/04 v0.22 support package for ocgx2.sty
 \l_mix_pbtn_box=\box79
 \g_mix_mbtncnt_int=\count351
 \mix@btn@dim=\dimen310
+)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/multimedia.sty
+Package: multimedia 2012/05/02 ver 0.02
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+)
+\mm@movie=\count352
 ) (./Notes.aux)
 \openout1 = `Notes.aux'.
 
@@ -937,6 +945,9 @@ LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <7> not available
 (Font)              Font shape `TU/lmss/m/sl' tried instead on input line 3.
 ) [2
 
+] [3
+
+
 ]
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10.95> not available
 (Font)              Font shape `TU/lmss/m/sl' tried instead on input line 63.
@@ -946,7 +957,7 @@ LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <6> not available
 (Font)              Font shape `TU/lmss/m/sl' tried instead on input line 63.
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <5> not available
 (Font)              Font shape `TU/lmss/m/sl' tried instead on input line 63.
- [3
+ [4
 
 ]
 File: ./images//cakeImage.png Graphic file (type bmp)
@@ -955,9 +966,7 @@ File: ./images//cakeImage.png Graphic file (type bmp)
 Overfull \vbox (25.62085pt too high) detected at line 70
  []
 
-[4
-
-] [5
+[5
 
 ] [6
 
@@ -969,6 +978,8 @@ Overfull \vbox (25.62085pt too high) detected at line 70
 
 ] [10
 
+] [11
+
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -978,9 +989,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 103.
 
-[11
-
-] [12
+[12
 
 ] [13
 
@@ -1008,10 +1017,10 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 ] [25
 
-]
-[26
+] [26
 
-] [27
+]
+[27
 
 ] [28
 
@@ -1039,10 +1048,10 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 ] [40
 
-]
-[41
+] [41
 
-] [42
+]
+[42
 
 ] [43
 
@@ -1060,12 +1069,12 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 ] [50
 
+] [51
+
 ]
 File: ./images//Camel.png Graphic file (type bmp)
 <./images//Camel.png>
- [51
-
-] [52
+ [52
 
 ] [53
 
@@ -1073,10 +1082,10 @@ File: ./images//Camel.png Graphic file (type bmp)
 
 ] [55
 
-]
-[56
+] [56
 
-] [57
+]
+[57
 
 ] [58
 
@@ -1090,6 +1099,29 @@ File: ./images//Camel.png Graphic file (type bmp)
 
 ] [63
 
+] [64
+
+] [65
+
+] [66
+
+] [67
+
+] [68
+
+] [69
+
+] [70
+
+] [71
+
+]
+[72
+
+] [73
+
+] [74
+
 ]
 \tf@nav=\write6
 \openout6 = `Notes.nav'.
@@ -1102,20 +1134,20 @@ File: ./images//Camel.png Graphic file (type bmp)
 
 
 
-LaTeX Warning: Hook 'shipout/lastpage' executed on wrong page (59 not 63).
+LaTeX Warning: Hook 'shipout/lastpage' executed on wrong page (73 not 74).
                Rerun to correct this.
 
 (./Notes.aux)
 Package rerunfilecheck Info: File `Notes.out' has not changed.
-(rerunfilecheck)             Checksum: C7373231F4630FC91A69A0AC5CD62D38;1779.
+(rerunfilecheck)             Checksum: 5C89A7D818954057B8D8B89E65D7C9A4;3342.
  ) 
 Here is how much of TeX's memory you used:
- 23107 strings out of 476775
- 464562 string characters out of 5808213
- 1850991 words of memory out of 5000000
- 42733 multiletter control sequences out of 15000+600000
+ 23306 strings out of 476775
+ 468571 string characters out of 5808213
+ 1851991 words of memory out of 5000000
+ 42927 multiletter control sequences out of 15000+600000
  521674 words of font info for 95 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,11n,122p,439b,686s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Notes.pdf (63 pages).
+Output written on Notes.pdf (74 pages).

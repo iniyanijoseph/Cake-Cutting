@@ -1,9 +1,21 @@
-\beamer@sectionintoc {1}{Introduction to Fair Division}{3}{0}{1}
-\beamer@sectionintoc {2}{Cut and Choose}{7}{0}{2}
-\beamer@sectionintoc {3}{Fair Division for $n$}{11}{0}{3}
-\beamer@subsectionintoc {3}{1}{Banach-Knaster Last Diminisher}{11}{0}{3}
-\beamer@subsectionintoc {3}{2}{Dubins-Spanier Moving Knife}{17}{0}{3}
-\beamer@subsectionintoc {3}{3}{Even-Paz Divide and Conquer}{21}{0}{3}
-\beamer@subsectionintoc {3}{4}{Stromquist Envy-Free Moving Knife}{25}{0}{3}
-\beamer@subsectionintoc {3}{5}{Austin's Perfect Division for n=2}{27}{0}{3}
-\beamer@subsectionintoc {3}{6}{Aziz-Mackenzie Envy-Free Procedure}{31}{0}{3}
+\beamer@sectionintoc {1}{Introduction to Fair Division}{4}{0}{1}
+\beamer@sectionintoc {2}{Cut and Choose}{8}{0}{2}
+\beamer@sectionintoc {3}{Fair Division for $n$}{12}{0}{3}
+\beamer@subsectionintoc {3}{1}{Banach-Knaster Last Diminisher}{12}{0}{3}
+\beamer@subsectionintoc {3}{2}{Dubins-Spanier Moving Knife}{18}{0}{3}
+\beamer@subsectionintoc {3}{3}{Even-Paz Divide and Conquer}{22}{0}{3}
+\beamer@sectionintoc {4}{Other Fair and Envy-Free Schemes}{25}{0}{4}
+\beamer@subsectionintoc {4}{1}{Stromquist Envy-Free Moving Knife}{26}{0}{4}
+\beamer@subsectionintoc {4}{2}{Austin's Perfect Division for n=2}{27}{0}{4}
+\beamer@subsectionintoc {4}{3}{Aziz-Mackenzie Envy-Free Procedure}{32}{0}{4}
+\beamer@sectionintoc {5}{Paper Reading}{35}{0}{5}
+\beamer@subsectionintoc {5}{1}{Intentions}{35}{0}{5}
+\beamer@subsectionintoc {5}{2}{Structure}{44}{0}{5}
+\beamer@subsectionintoc {5}{3}{Illustrated Guide to PhD - Matt Might}{51}{0}{5}
+\beamer@sectionintoc {6}{Unequal Division}{52}{0}{6}
+\beamer@subsectionintoc {6}{1}{Anecdote}{52}{0}{6}
+\beamer@subsectionintoc {6}{2}{Na{\"i}ve Method}{53}{0}{6}
+\beamer@subsectionintoc {6}{3}{Cutting Ones}{56}{0}{6}
+\beamer@subsectionintoc {6}{4}{Ramsey}{58}{0}{6}
+\beamer@subsectionintoc {6}{5}{Halving}{66}{0}{6}
+\beamer@sectionintoc {7}{Disagreement}{72}{0}{7}
