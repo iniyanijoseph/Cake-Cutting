@@ -129,8 +129,29 @@
 \headcommand {\beamer@framepages {72}{72}}
 \headcommand {\slideentry {7}{0}{2}{73/74}{}{0}}
 \headcommand {\beamer@framepages {73}{74}}
-\headcommand {\beamer@partpages {1}{74}}
-\headcommand {\beamer@subsectionpages {72}{74}}
 \headcommand {\beamer@sectionpages {72}{74}}
-\headcommand {\beamer@documentpages {74}}
-\headcommand {\gdef \inserttotalframenumber {41}}
+\headcommand {\beamer@subsectionpages {72}{74}}
+\headcommand {\sectionentry {8}{Other Interpretations}{75}{Other Interpretations}{0}}
+\headcommand {\beamer@subsectionpages {75}{74}}
+\headcommand {\beamer@subsectionentry {0}{8}{1}{75}{Strong Fair Division}}
+\headcommand {\slideentry {8}{1}{1}{75/75}{Strong Fair Division}{0}}
+\headcommand {\beamer@framepages {75}{75}}
+\headcommand {\slideentry {8}{1}{2}{76/78}{Strong Fair Division}{0}}
+\headcommand {\beamer@framepages {76}{78}}
+\headcommand {\slideentry {8}{1}{3}{79/80}{Strong Fair Division}{0}}
+\headcommand {\beamer@framepages {79}{80}}
+\headcommand {\slideentry {8}{1}{4}{81/85}{Strong Fair Division}{0}}
+\headcommand {\beamer@framepages {81}{85}}
+\headcommand {\slideentry {8}{1}{5}{86/87}{Strong Fair Division}{0}}
+\headcommand {\beamer@framepages {86}{87}}
+\headcommand {\slideentry {8}{1}{6}{88/88}{Strong Fair Division}{0}}
+\headcommand {\beamer@framepages {88}{88}}
+\headcommand {\beamer@subsectionpages {75}{88}}
+\headcommand {\beamer@subsectionentry {0}{8}{2}{89}{Classes of Fair Division}}
+\headcommand {\slideentry {8}{2}{1}{89/91}{Classes of Fair Division}{0}}
+\headcommand {\beamer@framepages {89}{91}}
+\headcommand {\beamer@partpages {1}{91}}
+\headcommand {\beamer@subsectionpages {89}{91}}
+\headcommand {\beamer@sectionpages {75}{91}}
+\headcommand {\beamer@documentpages {91}}
+\headcommand {\gdef \inserttotalframenumber {48}}

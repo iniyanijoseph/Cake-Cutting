@@ -385,4 +385,87 @@
 		\item If at least 1 person disagrees, there will be a way to allocate with excess
 	\end{itemize}
 \end{frame}
+%-------------------------------------------------------------------------------
+\section{Other Interpretations}
+\subsection{Strong Fair Division}
+%-------------------------------------------------------------------------------
+\begin{frame}{Meeting 5}
+	\begin{block}{Agenda}
+		\begin{itemize}
+			\item The Serendipity of Disagreement
+			\item Strong Fair Division
+			\item Classes of Fair Division
+		\end{itemize}
+	\end{block}
+\end{frame}
+\begin{frame}{Strong Fair Division}
+	\begin{itemize}
+		\item All players think they got more than $\frac{1}{n}$ of the cake \pause
+		\item It is clear to see that there may not always exist a strongly fair allocation \pause
+		\item If $ \exists_{i, j} \mu_i \neq \mu_j$, we can always create a strongly fair allocation
+	\end{itemize}
+This is the value of disagreement!
+\end{frame}
+%-------------------------------------------------------------------------------
+\begin{frame}{Strong Fair Division}
+	\begin{itemize}
+		\item Imagine a piece of cake $A \subseteq X$
+		\item If $\mu_1 (A) > \mu_2 (A)$, we may continue \pause
+		\begin{itemize} 
+			\item Let $ \mu_1 (A) = a$
+			\item Let $ \mu_2 (A) = b$
+		\end{itemize}
+		\item Let $ X - A = B$
+	\end{itemize}
+\end{frame}
+\begin{frame}{Strong Fair Division$ _{n=2}$}
+	\begin{itemize}
+		\item $ p < q $ since $ \frac{p}{q} < 1$
+		\item $1-b > 1-\frac{p}{q}$ = $\frac{q-p}{q}$ \pause
+		\item Player 1 cuts A into $p$ equal parts, each with value > $ \frac{1}{q}$
+		\item Player 2 cuts B into $q-p$ equal parts, each with value >  $\frac{1}{q}$ \pause
+		\item They each disagreed with the other person initially $ \implies $
+		\item $ \exists_{i}~\mu_2(A_i) < \frac{1}{q} \wedge \exists_{j}~\mu_1(B_j) < \frac{1}{q}$ 
+		\begin{itemize}
+			\item Each of them think the other person got $ < \frac{1}{q}$ for some piece
+		\end{itemize} \pause
+		\item Cut and choose all other piece of cake ($ X - A_i - B_i $)
+		\item Give $ A_i $ to $ 1 $ and $ B_j $ to $ 2 $ \pause
+		\item q-1 cuts 
+	\end{itemize}
+\end{frame}
+\begin{frame}{Strong Fair Division$ _{n=3}$}
+	\begin{itemize}
+		\item We will take a bottom-up approach to adding a $3_{rd}$ person
+		\item Without loss of generality, we want $\frac{2k-1}{3k-1}\ast\mu_1(X_1) > \frac{1}{3}$ \pause
+		\item Remember what we did for the bottom-up method: We cut the $X_1$ into $3k-1$ equal pieces
+		\item Player 3 chooses $k$ pieces
+		\begin{itemize}
+			\item $ 1 - \frac{2k-1}{3k-1} = \frac{k}{3k-1}$
+		\end{itemize}
+		\item Player 1 must be content
+		\item Player 3 must also be content
+	\end{itemize}
+\end{frame}
+\begin{frame}{Strong Fair Division}
+	Let's look at the number of cuts needed - 
+	\begin{itemize}
+		\item The number of cuts is dependent on k
+		\item $\frac{1}{2} + \frac{\epsilon}{2}~~~0 < \epsilon < 1$
+		\item We must find $k~~\text{s.t}~\frac{(2k-1)}{2}\ast (1+\epsilon) > \frac{3k-1}{3}$
+		\item $\epsilon (6k-1) > 1 $
+		\item k can grow to become quite large depending on $\epsilon$. Since we do not know $\epsilon$ beforehand, we must choose a large number of cuts.
+	\end{itemize}
+\end{frame} % Could we use a punishment scheme to force person n to remove some of their cake do top-down from 1/n? After all, only 1 person thinks that they got > 1/n in last-diminisher
+\subsection{Classes of Fair Division}
+\begin{frame}{Classes of Fair Division}
+	\begin{itemize}
+		\item Finite vs Infinite 
+		\begin{itemize}
+			\item Irrational Unequal Shares
+		\end{itemize}\pause
+		\item Bounded vs Unbounded (Upper Bounding)\pause
+		\item Continuous vs Discrete (Moving Knife?)
+	\end{itemize}
+\end{frame}
 \end{document}

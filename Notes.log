@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Debian) (preloaded format=xelatex 2024.2.4)  3 MAY 2024 10:15
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Debian) (preloaded format=xelatex 2024.5.17)  18 MAY 2024 09:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1122,6 +1122,46 @@ File: ./images//Camel.png Graphic file (type bmp)
 
 ] [74
 
+] [75
+
+] [76
+
+] [77
+
+] [78
+
+] [79
+
+] [80
+
+]
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <17.28> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 436.
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <12> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 436.
+ [81
+
+] [82
+
+] [83
+
+] [84
+
+] [85
+
+] [86
+
+]
+[87
+
+] [88
+
+] [89
+
+] [90
+
+] [91
+
 ]
 \tf@nav=\write6
 \openout6 = `Notes.nav'.
@@ -1134,20 +1174,26 @@ File: ./images//Camel.png Graphic file (type bmp)
 
 
 
-LaTeX Warning: Hook 'shipout/lastpage' executed on wrong page (73 not 74).
+LaTeX Warning: Hook 'shipout/lastpage' executed on wrong page (90 not 91).
                Rerun to correct this.
 
 (./Notes.aux)
-Package rerunfilecheck Info: File `Notes.out' has not changed.
-(rerunfilecheck)             Checksum: 5C89A7D818954057B8D8B89E65D7C9A4;3342.
+
+Package rerunfilecheck Warning: File `Notes.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Notes.out':
+(rerunfilecheck)             Before: 2507B125485F7CDD699014995EC920D1;3659
+(rerunfilecheck)             After:  4D6DF126E74458B04DF29AD2829F5835;3847.
  ) 
 Here is how much of TeX's memory you used:
- 23306 strings out of 476775
- 468571 string characters out of 5808213
- 1851991 words of memory out of 5000000
- 42927 multiletter control sequences out of 15000+600000
- 521674 words of font info for 95 fonts, out of 8000000 for 9000
+ 23348 strings out of 476775
+ 469257 string characters out of 5808212
+ 1854991 words of memory out of 5000000
+ 42965 multiletter control sequences out of 15000+600000
+ 524797 words of font info for 109 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,11n,122p,439b,686s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Notes.pdf (74 pages).
+Output written on Notes.pdf (91 pages).
