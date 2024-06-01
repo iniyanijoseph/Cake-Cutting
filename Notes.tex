@@ -468,4 +468,79 @@ This is the value of disagreement!
 		\item Continuous vs Discrete (Moving Knife?)
 	\end{itemize}
 \end{frame}
+%-------------------------------------------------------------------------------
+\section{Graph Theory}
+\subsection{Bipartite Matching}
+%-------------------------------------------------------------------------------
+\begin{frame}{Meeting 7}
+	\begin{block}{Agenda}
+		\begin{itemize}
+			\item Motivations - Indivisibility
+			\item Bipartite Matching
+			\item Pareto Optimality in cake
+		\end{itemize}
+	\end{block}
+\end{frame}
+\begin{frame}{Bipartite Matching}
+	\begin{itemize}
+		\item What is a bipartite matching? \pause
+		\item Conditions for a matching to exist -- Hall's marriage theorem \pause
+		\item Cake as a bipartite matching
+		\begin{itemize}
+			\item What are the two sets? 
+			\item When do we draw an edge? \pause
+			\item The set of players and the set of cake
+			\item When a piece is acceptable to a person
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+%-------------------------------------------------------------------------------
+\begin{frame}{Bipartite Matching}
+	\begin{itemize}
+		\item Envy Freeness
+		\begin{itemize}
+			\item The value of the piece is at least as good as every other piece
+			\item $\mu_i(X_j) \geq \mu_i(X_k)$
+		\end{itemize}\pause
+		\item Fairness 
+		\begin{itemize}
+			\item The value of the piece is more than $ \frac{1}{n} $ of the cake
+			\item $ \mu_i(X_j) \geq \frac{1}{n} $
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+%-------------------------------------------------------------------------------
+\begin{frame}{Bipartite Matching}
+	\begin{itemize}
+		\item Checking for a Perfect Matching
+		\begin{itemize}
+			\item Check all subsets to see if a perfect matching exists.
+			\item For n players, $2^n$ checks necessary when directly applying Hall's Marriage Theorem
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+%-------------------------------------------------------------------------------
+\begin{frame}{Division with Bipartite Matching}
+	\begin{itemize}
+		\item Find the smallest subset for which a perfect matching can be found by Hall's Marriage Theorem (k pieces and k players)
+		\item Have the remaining n-k players divide the remaining pieces of cake
+	\end{itemize}
+\end{frame}
+%-------------------------------------------------------------------------------
+\subsection{Pareto Optimality}
+\begin{frame}{Pareto Optimality}
+	\begin{itemize}
+		\item Someone would object in the case of a different allocation\pause
+		\item Find the permutation which maximizes the collective satisfaction
+		\item $n!$ permutations to brute force
+		\item Maximum flow algorithm $O((n+m)^\epsilon)$ \pause
+		\item Greedy solutions\pause
+		\begin{itemize}
+			\item Repeatedly minimize worst disappointment
+			\item Repeatedly maximize most satisfaction
+		\end{itemize}
+		
+	\end{itemize}
+\end{frame}
+%-------------------------------------------------------------------------------
 \end{document}

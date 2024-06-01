@@ -150,8 +150,27 @@
 \headcommand {\beamer@subsectionentry {0}{8}{2}{89}{Classes of Fair Division}}
 \headcommand {\slideentry {8}{2}{1}{89/91}{Classes of Fair Division}{0}}
 \headcommand {\beamer@framepages {89}{91}}
-\headcommand {\beamer@partpages {1}{91}}
-\headcommand {\beamer@subsectionpages {89}{91}}
 \headcommand {\beamer@sectionpages {75}{91}}
-\headcommand {\beamer@documentpages {91}}
-\headcommand {\gdef \inserttotalframenumber {48}}
+\headcommand {\beamer@subsectionpages {89}{91}}
+\headcommand {\sectionentry {9}{Graph Theory}{92}{Graph Theory}{0}}
+\headcommand {\beamer@subsectionpages {92}{91}}
+\headcommand {\beamer@subsectionentry {0}{9}{1}{92}{Bipartite Matching}}
+\headcommand {\slideentry {9}{1}{1}{92/92}{Bipartite Matching}{0}}
+\headcommand {\beamer@framepages {92}{92}}
+\headcommand {\slideentry {9}{1}{2}{93/96}{Bipartite Matching}{0}}
+\headcommand {\beamer@framepages {93}{96}}
+\headcommand {\slideentry {9}{1}{3}{97/98}{Bipartite Matching}{0}}
+\headcommand {\beamer@framepages {97}{98}}
+\headcommand {\slideentry {9}{1}{4}{99/99}{Bipartite Matching}{0}}
+\headcommand {\beamer@framepages {99}{99}}
+\headcommand {\slideentry {9}{1}{5}{100/100}{Bipartite Matching}{0}}
+\headcommand {\beamer@framepages {100}{100}}
+\headcommand {\beamer@subsectionpages {92}{100}}
+\headcommand {\beamer@subsectionentry {0}{9}{2}{101}{Pareto Optimality}}
+\headcommand {\slideentry {9}{2}{1}{101/104}{Pareto Optimality}{0}}
+\headcommand {\beamer@framepages {101}{104}}
+\headcommand {\beamer@partpages {1}{104}}
+\headcommand {\beamer@subsectionpages {101}{104}}
+\headcommand {\beamer@sectionpages {92}{104}}
+\headcommand {\beamer@documentpages {104}}
+\headcommand {\gdef \inserttotalframenumber {54}}

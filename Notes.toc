@@ -22,3 +22,6 @@
 \beamer@sectionintoc {8}{Other Interpretations}{75}{0}{8}
 \beamer@subsectionintoc {8}{1}{Strong Fair Division}{75}{0}{8}
 \beamer@subsectionintoc {8}{2}{Classes of Fair Division}{89}{0}{8}
+\beamer@sectionintoc {9}{Graph Theory}{92}{0}{9}
+\beamer@subsectionintoc {9}{1}{Bipartite Matching}{92}{0}{9}
+\beamer@subsectionintoc {9}{2}{Pareto Optimality}{101}{0}{9}

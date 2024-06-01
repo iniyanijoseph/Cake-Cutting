@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Debian) (preloaded format=xelatex 2024.5.17)  18 MAY 2024 09:34
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Debian) (preloaded format=xelatex 2024.5.22)  1 JUN 2024 14:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1162,6 +1162,33 @@ LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <12> not available
 
 ] [91
 
+] [92
+
+] [93
+
+] [94
+
+] [95
+
+] [96
+
+] [97
+
+] [98
+
+] [99
+
+] [100
+
+] [101
+
+]
+[102
+
+] [103
+
+] [104
+
 ]
 \tf@nav=\write6
 \openout6 = `Notes.nav'.
@@ -1174,7 +1201,7 @@ LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <12> not available
 
 
 
-LaTeX Warning: Hook 'shipout/lastpage' executed on wrong page (90 not 91).
+LaTeX Warning: Hook 'shipout/lastpage' executed on wrong page (103 not 104).
                Rerun to correct this.
 
 (./Notes.aux)
@@ -1184,16 +1211,16 @@ Package rerunfilecheck Warning: File `Notes.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `Notes.out':
-(rerunfilecheck)             Before: 2507B125485F7CDD699014995EC920D1;3659
-(rerunfilecheck)             After:  4D6DF126E74458B04DF29AD2829F5835;3847.
+(rerunfilecheck)             Before: 6869513886E6CBF9C4CCA7A7061D22CC;4254
+(rerunfilecheck)             After:  6B136A2606FA174F998BC997C44281D2;4254.
  ) 
 Here is how much of TeX's memory you used:
- 23348 strings out of 476775
- 469257 string characters out of 5808212
+ 23370 strings out of 476775
+ 469458 string characters out of 5808212
  1854991 words of memory out of 5000000
- 42965 multiletter control sequences out of 15000+600000
+ 42987 multiletter control sequences out of 15000+600000
  524797 words of font info for 109 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,11n,122p,439b,686s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Notes.pdf (91 pages).
+Output written on Notes.pdf (104 pages).
